@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion rootProject.ext.androidCompileSdkVersion
+    buildToolsVersion rootProject.ext.androidBuildToolsVersion
+
+    defaultConfig {
+        applicationId "de.westwing.androidtest"
+        minSdkVersion rootProject.ext.androidMinSdkVersion
+        targetSdkVersion rootProject.ext.androidTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    Map<String, String> dependencies = rootProject.ext.dependencies;
+
+    compile dependencies.appCompat
+    compile dependencies.cardView
+    compile dependencies.recyclerView
+    compile dependencies.retrofit
+    compile dependencies.retrofitConverterGson
+    compile dependencies.retrofitAdapterRxJava
+    compile dependencies.glide
+    compile dependencies.rxAndroid
+    compile dependencies.circleImageView
+    compile dependencies.palette
+    compile dependencies.design
+
+    provided dependencies.autoparcel
+    apt dependencies.aptautoparcel
+
+    testCompile dependencies.jUnit
+    testCompile dependencies.mockito
+    testCompile dependencies.robolectric
+}

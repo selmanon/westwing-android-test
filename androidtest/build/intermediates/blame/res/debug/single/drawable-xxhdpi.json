@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_open_in_browser_black_48dp.png",
+        "source": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/src/main/res/drawable-xxhdpi/ic_open_in_browser_black_48dp.png"
+    },
+    {
+        "merged": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/res/merged/debug/drawable-xxhdpi/placeholder.png",
+        "source": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/src/main/res/drawable-xxhdpi/placeholder.png"
+    },
+    {
+        "merged": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/res/merged/debug/drawable-xxhdpi/octocat.png",
+        "source": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/src/main/res/drawable-xxhdpi/octocat.png"
+    },
+    {
+        "merged": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_ab_up_white.png",
+        "source": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/src/main/res/drawable-xxhdpi/ic_ab_up_white.png"
+    },
+    {
+        "merged": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_ab_drawer_mask.png",
+        "source": "/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/src/main/res/drawable-xxhdpi/ic_ab_drawer_mask.png"
+    }
+]

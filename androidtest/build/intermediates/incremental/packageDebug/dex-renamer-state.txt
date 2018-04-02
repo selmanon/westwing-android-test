@@ -1,0 +1,4 @@
+#Sun Mar 18 23:09:56 WET 2018
+base.0=/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/abdellahselassi/dev/perso/android-test/tests/westwing_android_test/androidtest/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

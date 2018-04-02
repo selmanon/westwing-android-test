@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Westwing H&amp;L</string>
+
+    <string name="error_loading_repos">Oops, something went wrong</string>
+    <string name="no_items">No items</string>
+    <string name="info_button_description">Show photo information</string>
+    <string name="star_button_description">Fave this photo</string>
+    <string name="photo_description">Photo</string>
+</resources>
